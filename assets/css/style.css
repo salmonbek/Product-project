@@ -116,9 +116,6 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main .hero .site-hero .site-hero__left {
-    text-align: center;
-  }
 }
 @media (max-width: 477px) {
   .main .hero .site-hero .site-hero__left .btn-hero {
@@ -375,4 +372,19 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.managment {
+  padding: 170px 0px 150px 0px;
+}
+.managment .managment-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 84px;
+}
+.managment .managment-section-left__content1 {
+  color: #22343d;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
 }

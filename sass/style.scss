@@ -123,9 +123,6 @@ $TextBlack: #22343d;
     .hero {
       .site-hero {
         flex-direction: column;
-        .site-hero__left {
-          text-align: center;
-        }
       }
     }
   }
@@ -413,3 +410,22 @@ $TextBlack: #22343d;
 }
 
 //section product
+
+// managment section
+.managment {
+  padding: 170px 0px 150px 0px;
+  .managment-section {
+    display: flex;
+    gap: 84px;
+    &-left {
+      &__content1 {
+        color: #22343d;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// managment section
