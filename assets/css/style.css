@@ -410,6 +410,9 @@ body {
   line-height: 26px;
   margin-bottom: 25px;
 }
+.managment .managment-section .managment-right img {
+  max-width: 100%;
+}
 
 .similar, .managment .managment-section-left__content1, .managment .managment-section-left__content2, .managment .managment-section-left__content3, .managment .managment-section-left__content4, .managment .managment-section-left__content5 {
   color: #22343d;
