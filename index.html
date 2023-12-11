@@ -5,8 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -29,9 +36,11 @@
                         <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
                         <button class="nav-btn1"><b>Sign In</b></button>
                         <button class="nav-btn2"><b>Sign Up</b></button>
-                        <a href="#">
-                            <img src="images/dark-mode.svg" alt="mode-icon">
-                        </a>
+
+                        <button id="mode-btn">
+                            <img src="images/dark.svg" alt="">
+                        </button>
+
                     </ul>
 
                 </div>
@@ -48,9 +57,6 @@
         <li class="navbar-item"><a href="#" class="navbar-link">Resources</a></li>
         <button class="navbar-button"><b>Sign In</b></button>
         <button class="navbar-button"><b>Sign Up</b></button>
-        <a href="#">
-            <img src="images/dark-mode.svg" alt="mode-icon">
-        </a>
     </ul>
     <!-- header section -->
     <main class="main">
@@ -140,18 +146,352 @@
                 </div>
             </div>
         </section>
-
         <!-- section managment -->
+
+        <!-- section customer -->
+        <section class="customer">
+            <div class="container customer-section">
+                <div class="customer-section-left">
+                    <img src="images/customer-support-right.svg" alt="img">
+                </div>
+                <div class="customer-section-right">
+                    <p class="customer-section-right__content1">Easier decision making for</p>
+                    <p class="customer-section-right__content2"> Customer Support</p>
+                    <p class="customer-section-right__content3">The Myspace page defines the individual, his or her
+                        characteristics, traits, personal choices and the overall
+                        personality of the person.</p>
+                    <div class="customer-section-right__check">
+                        <img src="images/check-orange.svg" alt="img">
+                        <p class="customer-section-right__check__p">Never worry about overpaying for your energy again.
+                        </p>
+                    </div>
+                    <div class="customer-section-right__check">
+                        <img src="images/check-red.svg" alt="img">
+                        <p class="customer-section-right__check__p">We will only switch you to energy companies that we
+                            trust
+                            and will treat you right</p>
+                    </div>
+                    <div class="customer-section-right__check">
+                        <img src="images/check-blue.svg" alt="img">
+                        <p class="customer-section-right__check__p">We track the markets daily and know where the
+                            savings are.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section customer -->
+
+        <!-- section collabrative -->
+        <section class="collabrative">
+            <div class="container">
+                <div class="collabrative-section">
+                    <div class="collabrative-section__left">
+                        <p class="collabrative-section__left__content1">Optimisation for</p>
+                        <p class="collabrative-section__left__content2">Collaborative</p>
+                        <p class="collabrative-section__left__content3">Few would argue that, despite the advancements
+                            of feminism over the past three decades, women still face a double
+                            standard when it comes to their behavior.</p>
+                        <p class="collabrative-section__left__content4">Accessory makers</p>
+                        <p class="collabrative-section__left__content5">While most people enjoy casino gambling, sports
+                            betting, lottery and bingo playing for the fun</p>
+                        <p class="collabrative-section__left__content4">Alterationists</p>
+                        <p class="collabrative-section__left__content5">If you are looking for a new way to promote your
+                            business that won’t cost you more money,</p>
+                    </div>
+                    <div class="collabrative-section__right"><img src="images/collabrative-right.svg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section collabrative -->
+
+        <!-- section process -->
+        <section class="process">
+            <div class="container">
+                <div class="process-section">
+                    <h3 class="process-section_title">Quick & Easy Process</h3>
+                    <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500"
+                        class="process-section_description">Do you require some help for your project: Conception
+                        workshop,
+                        prototyping, marketing strategy, landing page, Ux/UI?</p>
+                    <div class="process-section__cards">
+                        <div class="process-section__cards__c">
+                            <div data-aos="fade-right" data-aos-duration="600" class="process-section__cards__c__p">
+                                <img src="images/Avator-top-l.svg" alt="">
+                                <p class="pprocess-section__cards__c__p__b">I can take care of your pitch</p>
+                            </div>
+                            <div data-aos="fade-right" data-aos-duration="600" class="process-section__cards__c__p">
+                                <p class="process-section__cards__c__p__b">I can take care of your pitch</p>
+                                <img src="images/Avator-bottom-l.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="process-section__cards__c">
+                            <div data-aos="fade-left" data-aos-duration="600" class="process-section__cards__c__p">
+                                <p class="pprocess-section__cards__c__p__b">I can help marketing strategy</p>
+                                <img src="images/Avator-top-r.svg" alt="">
+                            </div>
+                            <div data-aos="fade-left" data-aos-duration="600" class="process-section__cards__c__p">
+                                <img src="images/Avator-bottm-r.svg" alt="">
+                                <p class="process-section__cards__c__p__b">I can help marketing strategy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="process-section__btn">Contact our expert</button>
+                </div>
+            </div>
+        </section>
+        <!-- section process -->
+
+        <!-- section carousel -->
+        <section class="owl">
+            <div class="container">
+                <h5 class="owl-title">Contents Strategies</h5>
+                <p class="owl-paragraph">We focus on ergonomics and meeting you where you work. It's only a keystroke
+                    away.</p>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="images/carousel-card1.svg" alt="card-img">
+                        <div class="item-content">
+                            <p class="p"><b>By Wahid Ari |</b> 03 March 2019</p>
+                            <h5 class="h">Increasing Prosperity With Positive Thinking</h5>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-card2.svg" alt="card-img">
+                        <div class="item-content">
+                            <p><b>By Wahid Ari |</b> 03 March 2019</p>
+                            <h5 class="h">Motivation Is The First Step To Success</h5>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-card3.svg" alt="card-img">
+                        <div class="item-content">
+                            <p><b>By Wahid Ari |</b> 03 March 2019</p>
+                            <h5 class="h">Success Steps For Your Personal Or Business</h5>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-card3.svg" alt="card-img">
+                        <div class="item-content">
+                            <p><b>By Wahid Ari |</b> 03 March 2019</p>
+                            <h5 class="h">Increasing Prosperity With Positive Thinking</h5>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-card1.svg" alt="card-img">
+                        <div class="item-content">
+                            <p><b>By Wahid Ari |</b> 03 March 2019</p>
+                            <h5 class="h">Motivation Is The First Step To Success</h5>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-card2.svg" alt="">
+                        <div class="item-content">
+                            <p><b>By Wahid Ari |</b> 03 March 2019</p>
+                            <h5 class="h">Motivation Is The First Step To Success</h5>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-card3.svg" alt="">
+                        <div class="item-content">
+                            <p><b>By Wahid Ari |</b> 03 March 2019</p>
+                            <h5 class="h">Increasing Prosperity With Positive Thinking</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="price">
+            <div class="container">
+                <h1 class="price-title">Price Table</h1>
+                <p class="price-paragraph">We offer competitive price</p>
+                <div class="price-cards">
+                    <div class="price-card1">
+                        <h4 class="price-card1__description1">Free</h4>
+                        <p class="price-card1__description2">Brief price description</p>
+                        <div class="price-card1__description3">
+                            <p class="price-card1__description3__number">0</p>
+                            <div>
+                                <p class="price-card1__description3__percent">$</p>
+                                <p class="price-card1__description3__month">Per / month</p>
+                            </div>
+                        </div>
+                        <p class="price-card1__p">Only 2 Operators</p>
+                        <p class="price-card1__p">Notifications</p>
+                        <p class="price-card1__p">Landing Pages</p>
+                        <button class="price-card1__btn">Order Now</button>
+                    </div>
+                    <div class="price-card1">
+                        <h4 class="price-card1__description1">Free</h4>
+                        <p class="price-card1__description2">Brief price description</p>
+                        <div class="price-card1__description3">
+                            <p class="price-card1__description3__number">0</p>
+                            <div>
+                                <p class="price-card1__description3__percent">$</p>
+                                <p class="price-card1__description3__month">Per / month</p>
+                            </div>
+                        </div>
+                        <p class="price-card1__p">5+ Operators</p>
+                        <p class="price-card1__p">Notifications</p>
+                        <p class="price-card1__p">Landing Pages</p>
+                        <button class="price-card1__btn">Order Now</button>
+                    </div>
+                    <div class="price-card1">
+                        <h4 class="price-card1__description1">Free</h4>
+                        <p class="price-card1__description2">Brief price description</p>
+                        <div class="price-card1__description3">
+                            <p class="price-card1__description3__number">0</p>
+                            <div>
+                                <p class="price-card1__description3__percent">$</p>
+                                <p class="price-card1__description3__month">Per / month</p>
+                            </div>
+                        </div>
+                        <p class="price-card1__p">10+ Operators</p>
+                        <p class="price-card1__p">Notifications</p>
+                        <p class="price-card1__p">Landing Pages</p>
+                        <button class="price-card1__btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section price cards -->
+
+        <!-- section clients -->
+        <section class="client">
+            <div class="container">
+                <h1 class="client-title">What Clients Say</h1>
+                <h1 class="client-paragraph">Problems trying to resolve the conflict between
+                    the two major realms of Classical physics: Newtonian mechanics</h1>
+
+                <div class="client-cards">
+                    <div class="client-cards__1">
+                        <img src="images/stars.svg" alt="">
+                        <p class="client-cards__1__content">Product helps you see how many
+                            more days you need to work to
+                            reach your financial goal.</p>
+                        <div class="client-cards__1__grid">
+                            <img src="images/vahid1.svg" alt="">
+                            <div class="client-cards__1__grid__flex">
+                                <p class="client-cards__1__grid__flex__p">Wahid Ari</p>
+                                <p class="client-cards__1__grid__flex__b">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-cards__1">
+                        <img src="images/stars.svg" alt="">
+                        <p class="client-cards__1__content">Product helps you see how many
+                            more days you need to work to
+                            reach your financial goal.</p>
+                        <div class="client-cards__1__grid">
+                            <img src="images/vahid2.svg" alt="">
+                            <div class="client-cards__1__grid__flex">
+                                <p class="client-cards__1__grid__flex__p">Wahid Ari</p>
+                                <p class="client-cards__1__grid__flex__b">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-cards__1">
+                        <img src="images/stars.svg" alt="">
+                        <p class="client-cards__1__content">Product helps you see how many
+                            more days you need to work to
+                            reach your financial goal.</p>
+                        <div class="client-cards__1__grid">
+                            <img src="images/vahid3.svg" alt="">
+                            <div class="client-cards__1__grid__flex">
+                                <p class="client-cards__1__grid__flex__p">Wahid Ari</p>
+                                <p class="client-cards__1__grid__flex__b">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section contact -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-card__left">
+                        <h1 class="contact-card__left__title">Join 100 Compannies who boost their business with Product
+                        </h1>
+                        <p class="contact-card__left__p"></p>
+                        <button class="contact-card__left__btn">Get This</button>
+                    </div>
+                    <div class="contact-card__right">
+                        <img src="images/join-img-right.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section contact -->
+
+
+        <!-- section product -->
     </main>
 
+    <!-- footer section -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-card">
+                <div class="footer-card1">
+                    <img src="" alt="">
+                    <div class="footer-card1__grid">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-card2">
+                    <h5 class="footer-card2__title">Resource</h5>
+                    <p class="footer-card2__title">About Us</p>
+                    <p class="footer-card2__title">Blog</p>
+                    <p class="footer-card2__title">Contact</p>
+                    <p class="footer-card2__title">FAQ</p>
+                </div>
+                <div class="footer-card2">
+                    <h5 class="footer-card2__title">Legal Stuff</h5>
+                    <p class="footer-card2__title">Disclaimer</p>
+                    <p class="footer-card2__title">Financing</p>
+                    <p class="footer-card2__title">Privacy</p>
+                    <p class="footer-card2__title">Terms of Service</p>
+                </div>
+                <div class="footer-card3">
+                    <p class="footer-card3__p">knowing you're always on the best energy deal.
+                    </p>
+                    <form action="">
+                        <input type="text">
+                    </form>
+                    <button class="footer-card3__btn">Sign up Now</button>
+                </div>
+            </div>
+            <p class="footer-bottom">
+                Made With Love By Figmaland All Right Reserved
 
+            </p>
+        </div>
+    </section>
+
+    <!-- footer section -->
     <!-- scrpit  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-
     <!-- scrpit  -->
 </body>
 
